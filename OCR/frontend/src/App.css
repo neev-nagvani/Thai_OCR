@@ -1,0 +1,51 @@
+body {
+  background-color: #011422;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #3498db; /* A nice blue color */
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-bottom: 20px;
+}
+
+#uploader {
+  text-align: center;
+  color: #ecf0f1; /* Light gray text color */
+  padding: 2%;
+  margin-top: 50px;
+}
+
+#image {
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #3498db; /* Same blue as h1 */
+  transition: background-color 0.3s;
+}
+
+#image:hover {
+  background-color: #3498db; /* Darker blue on hover */
+  color: #ecf0f1; /* Light text color on hover */
+}
+
+#btnSubmit {
+  display: block;
+  margin: 20px auto;
+  background-color: #3498db;
+  cursor: pointer;
+  color: #ecf0f1;
+  border-radius: 10px;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
+
+#btnSubmit:hover {
+  background-color: #2980b9; /* Slightly darker blue on hover */
+}
